@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: rgb(146, 204, 146);
 }
 
 header{
@@ -10,20 +10,23 @@ header{
 
 header a {
     float: center;
-    color: #f2f2f2;
+    color:rgb(7, 53, 7);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
     
 h1 {
-    color: white;
+    color: rgb(7, 53, 7);
     text-align: center;
     font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Amaranth';
 }
 
 h3{
-    color: white;
+    color: rgb(7, 53, 7);
     text-align: left;
     font-size: 30px; 
 }
@@ -43,7 +46,7 @@ h3{
  }
 
 .box.diagonal{
-    padding-left: 20px;
+    padding-left: 100px;
 }
 
 .box.diagonal a {
@@ -56,6 +59,7 @@ h3{
     margin: 10;
     padding-left: 30 px 0 0 ;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -64,3 +68,8 @@ footer {background-color: black;
     padding: 50px;
     color: white;
   text-align: center;}
+
+h4 {
+    color: rgb(7, 53, 7);
+    align-content: center;
+}
