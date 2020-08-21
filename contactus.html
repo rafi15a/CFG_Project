@@ -34,14 +34,27 @@
             <img src="https://i0.wp.com/www.cucchiarella.com/wp-content/uploads/2020/04/KEEP-IN-TOUCH-1-1.png?fit=1020%2C435" style="width:100%">
         </div>
         <div class="column">
-            <form action="contactus.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="name" placeholder="Your name..">
-            <label for="email">Email</label>
-            <input type="text" id="lname" name="email" placeholder="Your email..">
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit">
+            <form method="post">
+                <label for="fname">First Name</label>
+                <input type="text"  name="name" placeholder="Your name..">
+                <label for="email">Email</label>
+                <input type="text"  name="email" placeholder="Your email..">
+                <label for="subject">Subject</label>
+                <textarea  name="subject" placeholder="Write something.." style="height:170px" ></textarea>
+          
+        
+                <div class="box">
+                    <a class="button" href="#popup1">Submit</a>
+                </div>
+                
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                            Thank you! Your message has been sent and we will answer asap!!
+                        </div>
+                    </div>
+                </div>  
             </form>
         </div>
         </div>
